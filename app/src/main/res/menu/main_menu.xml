@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mi_home"
+        android:title="Home"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mi_hangman"
+        android:title="Hangman"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mi_num_ges"
+        android:title="Number Guesser"
+        app:showAsAction="never"/>
+
+</menu>
