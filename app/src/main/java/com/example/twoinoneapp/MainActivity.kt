@@ -41,12 +41,18 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
             R.id.mi_home ->{
+                val intent = Intent(this, MainActivity::class.java)
+                startActivity(intent)
                 Snackbar.make(clMain, "Home Click", Snackbar.LENGTH_LONG).show()
             }
             R.id.mi_hangman ->{
+                val intent = Intent(this, Hangman::class.java)
+                startActivity(intent)
                 Snackbar.make(clMain, "Hangman Click", Snackbar.LENGTH_LONG).show()
             }
             R.id.mi_num_ges ->{
+                val intent = Intent(this, GuessNumber::class.java)
+                startActivity(intent)
                 Snackbar.make(clMain, "Number Guesser Click", Snackbar.LENGTH_LONG).show()
             }
         }

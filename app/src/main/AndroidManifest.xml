@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TwoInOneApp">
+        <activity android:name=".GuessNumber"/>
+        <activity android:name=".Hangman"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
