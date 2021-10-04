@@ -6,11 +6,11 @@
         android:title="Home"
         app:showAsAction="never"/>
     <item
-        android:id="@+id/mi_hangman"
+        android:id="@+id/mi_other"
         android:title="Hangman"
         app:showAsAction="never"/>
     <item
-        android:id="@+id/mi_num_ges"
+        android:id="@+id/mi_again"
         android:title="Number Guesser"
         app:showAsAction="never"/>
 

@@ -17,9 +17,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         clMain =findViewById(R.id.clMain)
 
         btnHM = findViewById(R.id.btnHM)
+
         btnHM.setOnClickListener {
             val intent = Intent(this, Hangman::class.java)
             startActivity(intent)
@@ -45,12 +47,12 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 Snackbar.make(clMain, "Home Click", Snackbar.LENGTH_LONG).show()
             }
-            R.id.mi_hangman ->{
+            R.id.mi_other->{
                 val intent = Intent(this, Hangman::class.java)
                 startActivity(intent)
                 Snackbar.make(clMain, "Hangman Click", Snackbar.LENGTH_LONG).show()
             }
-            R.id.mi_num_ges ->{
+            R.id.mi_again->{
                 val intent = Intent(this, GuessNumber::class.java)
                 startActivity(intent)
                 Snackbar.make(clMain, "Number Guesser Click", Snackbar.LENGTH_LONG).show()

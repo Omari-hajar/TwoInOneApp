@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/hang_main.xml" value="0.23541666666666666" />
+        <entry key="app/src/main/res/layout/game_area.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/hang_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/num_item.xml" value="0.10572916666666667" />
         <entry key="app/src/main/res/layout/number_main.xml" value="0.23541666666666666" />
+        <entry key="app/src/main/res/layout/word_item.xml" value="0.10572916666666667" />
         <entry key="app/src/main/res/menu/main_menu.xml" value="0.23541666666666666" />
       </map>
     </option>
